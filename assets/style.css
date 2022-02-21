@@ -8,10 +8,19 @@ body{
   background-color: white;
 }
 
+.profile-picture {
+  border-radius: 100%;
+  position: absolute;
+  max-width: 10%;
+  top: 10px;
+  left: 20px;
+  border: 6px solid rgb(63, 62, 71);
+}
+
 header {
 width: 100%;
 height: 100px;
-background-color: rgb(55, 54, 70);
+background-color: rgb(63, 62, 71);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -52,8 +61,7 @@ nav {
 
 .hero-image {
   width: 100%;
-  height: 250px;
-  background-image: ;
+  height: 100%;
 }
 
 main {
@@ -152,6 +160,7 @@ p {
   header {
     display: flex;
     flex-direction:column;
+    height: fit-content;
   }
 
   h1 {
@@ -182,7 +191,9 @@ p {
     text-transform: ;
   }
 
-  .main-header br { content: ' '; }
+  .main-header br {
+    content: ' ';
+  }
 
   .content {
     border-left: none;
