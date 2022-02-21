@@ -70,7 +70,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .main-header {
 padding: 20px 40px 0px 0px;
 margin: 40px 0px;
-width: 20%;
+flex-basis: 20%;
 text-align: right;
 color: rgb(20, 67, 105);
 font-size: 50px;
@@ -78,23 +78,11 @@ font-weight: 100;
 }
 
 .content {
-  width: 80%;
+  flex-basis: 80%;
   padding: 5px 5% 5px 5%;
   flex: 1 0;
   border-left: 6px solid rgb(20, 67, 105);
   margin: 40px 0px 40px 0px;
-}
-
-/* Work Section */
-.work {
-padding: 20px 40px 0px 0px;
-margin: 40px 0px;
-width: 350px;
-text-align: right;
-color: rgb(20, 67, 105);
-font-size: 50px;
-font-weight: 100;
-
 }
 
 p {
@@ -103,22 +91,44 @@ p {
   line-height: 1.6;
 }
 
+/* WORK SECTION */
+.work-content {
+  flex-basis: 80%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px 5% 5px 5%;
+  border-left: 6px solid rgb(20, 67, 105);
+  margin: 40px 0px 40px 0px;
+}
+
 .feature-project {
-  width: 1200px;
-  display:flex;
+  flex-basis: 100%;
   flex: 2 1;
   border: 7px solid rgb(78, 221, 209);
+  margin: 12px;
 }
 
 .secondary-project {
-  width: 80%;
+  flex: 1 1;
+  height: 150px;
+  min-width: 45%;
   border: 3px solid red;
-  display:flex;
-  flex-direction: column;
-  border: 20px solid rgb(78, 221, 209);
+  margin: 12px;
+  border: 7px solid rgb(78, 221, 209);
 }
 
-.contact-information {
+.link-section {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;  
+}
 
+.contact-link {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: rgb(20, 67, 105);
 }
 
