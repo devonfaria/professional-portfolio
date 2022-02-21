@@ -43,10 +43,10 @@ nav {
   text-align: center;
   color: rgb(78, 221, 209);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   padding: 5px;
   margin: 0 12px;
-  border-bottom: 3px solid rgb(78, 221, 209);
+  border-bottom: 2px solid rgb(78, 221, 209);
 }
 
 .hero-image {
@@ -74,7 +74,7 @@ flex-basis: 20%;
 text-align: right;
 color: rgb(20, 67, 105);
 font-size: 50px;
-font-weight: 100;
+font-weight: 900;
 }
 
 .content {
@@ -108,15 +108,26 @@ p {
   flex: 2 1;
   border: 7px solid rgb(78, 221, 209);
   margin: 12px;
+  opacity: 0.8;
+}
+
+.feature-project:hover {
+  opacity: 1;
 }
 
 .secondary-project {
   flex: 1 1;
   height: 150px;
   min-width: 45%;
+  opacity: 0.8;
   border: 3px solid red;
   margin: 12px;
   border: 7px solid rgb(78, 221, 209);
+  display: flex;
+}
+
+.secondary-project:hover {
+  opacity: 1;
 }
 
 .link-section {
@@ -132,3 +143,6 @@ p {
   color: rgb(20, 67, 105);
 }
 
+.photo-resize {
+
+}
