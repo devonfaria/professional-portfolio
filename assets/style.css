@@ -11,7 +11,7 @@ body{
 .profile-picture {
   border-radius: 100%;
   position: absolute;
-  max-width: 10%;
+  max-width: 15%;
   top: 10px;
   left: 20px;
   border: 6px solid rgb(63, 62, 71);
@@ -35,7 +35,7 @@ h1 {
   font-weight: 100;
   width: 610px;
   color: rgb(53, 52, 73);
-  padding: 0px 5px 0px 250px;
+  padding: 0px 5px 0px 270px;
   background-color: rgb(78, 221, 209)
 }
 
@@ -102,7 +102,7 @@ p {
 
 /* WORK SECTION */
 .work-content {
-  flex-basis: 80%;
+  width: 80%;
   display: flex;
   flex-direction:row;
   justify-content: space-between;
@@ -117,6 +117,15 @@ p {
   border: 7px solid rgb(78, 221, 209);
   margin: 12px;
   opacity: 0.8;
+  height: 350px;
+  min-width: 90%;
+}
+
+.feature-project img {
+  width: 100%;
+  height: 100%;
+  display:cover;
+  object-fit: cover;
 }
 
 .feature-project:hover {
@@ -128,10 +137,16 @@ p {
   height: 150px;
   min-width: 45%;
   opacity: 0.8;
-  border: 3px solid red;
   margin: 12px;
   border: 7px solid rgb(78, 221, 209);
   display: flex;
+}
+
+.secondary-project img {
+  width: 100%;
+  height: 100%;
+  display:cover;
+  object-fit: cover;
 }
 
 .secondary-project:hover {
@@ -157,16 +172,21 @@ p {
 
 @media screen and (max-width: 768px) {
   
+  .profile-picture {
+    max-width: 30%;
+  }
+
   header {
-    display: flex;
-    flex-direction:column;
-    height: fit-content;
+    /* display: flex;
+    flex-direction:column; */
+    /* flex-wrap: wrap; */
+    height: 100%;
   }
 
   h1 {
-    font-size: 70px;
-    padding: 0px;
-    text-align: center;
+    font-size: 55px;
+    padding: 0px 30px 0px 0px;
+    text-align: right;
   }
 
   nav {
@@ -188,7 +208,7 @@ p {
 
   .main-header {
     text-align: center;
-    text-transform: ;
+    margin: 10px 0 10px 0;
   }
 
   .main-header br {
@@ -202,11 +222,10 @@ p {
   .work-content {
   flex-direction: column;
   border-left: none;
-  border-top:5px solid rgb(20, 67, 105);
+  margin: 0px 5px 0px 5px;
   }
 
   .featured-project {
-    flex: 1 1;
     }
   
 
