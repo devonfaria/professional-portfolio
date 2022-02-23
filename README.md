@@ -19,9 +19,9 @@ The web page when deployed will have links to the page sections in the nav bar, 
 
 The following layout is what you can expect to see on your browser.
 
-![alt text](./assets/images/topthird.png)
-![alt text](./assets/images/middlethird.png)
-![alt text](./assets/images/bottomthird.png)
+![alt text](./assets/images/portfolio1.png)
+![alt text](./assets/images/portfolio2.png)
+![alt text](./assets/images/portfolio3.png)
 
 ## Support
 
