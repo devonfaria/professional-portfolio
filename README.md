@@ -13,7 +13,7 @@
 
 Welcome to the backend of the landing page for my professional protfolio! This project only uses one html and one css file, with a folder of images for your convenience. Use this page format for your own purposes!
 
-The web page when deployed will have links to the page sections in the nav bar, a screen-responsive design, clickable image links to separate web applications, and a contact me section with links. 
+The web page when deployed will have links to the page sections in the nav bar, a screen-responsive design, clickable image links to separate web applications, and a "contact me" section with links. 
 
 ## Visuals
 
