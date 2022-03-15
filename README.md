@@ -6,7 +6,7 @@
 
 * [Description](#description)
 * [Visuals](#visuals)
-* [Support](#Support)
+* [Support](#support)
 * [Contributions](#contributions)
 
 ## Description
@@ -19,9 +19,8 @@ The web page when deployed will have links to the page sections in the nav bar, 
 
 The following layout is what you can expect to see on your browser.
 
-![alt text](./assets/images/portfolio1.png)
-![alt text](./assets/images/portfolio2.png)
-![alt text](./assets/images/portfolio3.png)
+![alt text](./assets/images/Devon-Faria-Web-Developer-Portfolio.png)
+
 
 ## Support
 
