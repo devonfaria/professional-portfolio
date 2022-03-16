@@ -6,6 +6,7 @@
 
 * [Description](#description)
 * [Visuals](#visuals)
+* [Technologies](#technologies)
 * [Support](#support)
 * [Contributions](#contributions)
 
@@ -21,6 +22,9 @@ The following layout is what you can expect to see on your browser.
 
 ![alt text](./assets/images/Devon-Faria-Web-Developer-Portfolio.png)
 
+## Technologies
+
+This project was created using HTML and CSS alone, no additionl frameworks.
 
 ## Support
 
