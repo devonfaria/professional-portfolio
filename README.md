@@ -7,6 +7,7 @@
 * [Description](#description)
 * [Visuals](#visuals)
 * [Technologies](#technologies)
+* [Licenses](#licenses)
 * [Support](#support)
 * [Contributions](#contributions)
 
@@ -25,6 +26,10 @@ The following layout is what you can expect to see on your browser.
 ## Technologies
 
 This project was created using HTML and CSS alone, no additionl frameworks.
+
+## Licenses
+
+No licenses necessary for this application. 
 
 ## Support
 
