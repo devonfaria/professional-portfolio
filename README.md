@@ -21,7 +21,7 @@ The web page when deployed will have links to the page sections in the nav bar, 
 
 The following layout is what you can expect to see on your browser.
 
-![alt text](./assets/images/Devon-Faria-Web-Developer-Portfolio.png)
+![devon faria portfolio webpage](./assets/images/Devon-Faria-Web-Developer-Portfolio.png)
 
 ## Technologies
 
